@@ -1,0 +1,30 @@
+db:
+  username: ${username.value:nsi}
+  password: VerySecretPasswordForNSI
+  driver: PostgresDriver
+  url: jdbc:postgresql://172.25.16.124:5432/nsi
+  hosts: localhost,172.25.16.124
+  properties:
+    first: 123
+    second: 567
+    third.value: Third
+  pool:
+    size: 12
+    timeout: 10
+  pools:
+    - size: 1
+      timeout: 1
+    - size: 2
+      timeout: 2
+    - size: 3
+      timeout: 3
+
+spring.profiles.active: qa
+
+logging:
+  level:
+    root: WARN
+    com.szherbekov.spring.database.pool: INFO
+  file:
+    name: dmdev.log
+    path: /

@@ -1,0 +1,157 @@
+00:00:10.386  1392 [main] DEBUG r.l.r.InMemoryRatesRepositoryImpl - Информация из CSV файлов успешно загружена в InMemoryRatesRepository
+00:00:10.941  1947 [main] INFO  ru.liga.Bot - Приложение запущено. Ожидаются сообщения
+00:00:11.278  2284 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664072
+00:03:44.290  215296 [fist_extrasensory_bot Telegram Connection] ERROR o.t.t.u.DefaultBotSession - api.telegram.org:443 failed to respond
+org.apache.http.NoHttpResponseException: api.telegram.org:443 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+00:05:06.426  297432 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.view.TelegramViewImpl - При построении графика произошла ошибкаCan't create an ImageOutputStream!
+00:05:06.427  297433 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - ERROR: При построении графика произошла ошибка
+00:08:02.546  473552 [fist_extrasensory_bot Telegram Connection] ERROR o.t.t.u.DefaultBotSession - Remote host terminated the handshake
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at java.base/sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1719)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1518)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:436)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:384)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:489)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510)
+	... 16 common frames omitted
+11:23:03.149  945  [main] DEBUG r.l.r.InMemoryRatesRepositoryImpl - Информация из CSV файлов успешно загружена в InMemoryRatesRepository
+11:23:03.549  1345 [main] INFO  ru.liga.Bot - Приложение запущено. Ожидаются сообщения
+11:23:05.629  3425 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664073
+11:23:10.538  8334 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.view.TelegramViewImpl - При построении графика произошла ошибкаCan't create an ImageOutputStream!
+11:23:10.538  8334 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - ERROR: При построении графика произошла ошибка
+11:24:03.764  762  [main] DEBUG r.l.r.InMemoryRatesRepositoryImpl - Информация из CSV файлов успешно загружена в InMemoryRatesRepository
+11:24:04.146  1144 [main] INFO  ru.liga.Bot - Приложение запущено. Ожидаются сообщения
+11:24:14.324  11322 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664074
+11:24:14.328  11326 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - ERROR: Неверный формат команды, воспользуйтесь командой Help
+11:24:21.722  18720 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664075
+11:24:22.697  19695 [fist_extrasensory_bot Telegram Executor] INFO  ru.liga.view.TelegramViewImpl - build predication finished
+11:24:22.699  19697 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.view.TelegramViewImpl - Не удалось отправить график: Media can't be empty
+11:25:29.437  86435 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664076
+11:25:29.609  86607 [fist_extrasensory_bot Telegram Executor] INFO  ru.liga.view.TelegramViewImpl - build predication finished
+11:25:29.609  86607 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.view.TelegramViewImpl - Не удалось отправить график: Media can't be empty
+12:57:25.021  894  [main] DEBUG r.l.r.InMemoryRatesRepositoryImpl - Информация из CSV файлов успешно загружена в InMemoryRatesRepository
+12:57:25.445  1318 [main] INFO  ru.liga.Bot - Приложение запущено. Ожидаются сообщения
+12:57:26.016  1889 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664077
+12:57:51.969  27842 [fist_extrasensory_bot Telegram Executor] INFO  ru.liga.view.TelegramViewImpl - build predication finished
+12:57:51.979  27852 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.view.TelegramViewImpl - Не удалось отправить график: Media can't be empty
+13:00:47.256  203129 [fist_extrasensory_bot Telegram Executor] INFO  ru.liga.view.TelegramViewImpl - build predication finished
+13:03:51.227  387100 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.view.TelegramViewImpl - Не удалось отправить график: Media can't be empty
+13:04:42.366  820  [main] DEBUG r.l.r.InMemoryRatesRepositoryImpl - Информация из CSV файлов успешно загружена в InMemoryRatesRepository
+13:04:42.836  1290 [main] INFO  ru.liga.Bot - Приложение запущено. Ожидаются сообщения
+13:04:50.760  9214 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664078
+13:05:14.133  32587 [fist_extrasensory_bot Telegram Executor] INFO  ru.liga.view.TelegramViewImpl - build predication finished
+13:07:32.343  170797 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.view.TelegramViewImpl - Не удалось отправить график: Media can't be empty
+13:08:49.546  248000 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664079
+13:08:53.517  251971 [fist_extrasensory_bot Telegram Executor] INFO  ru.liga.view.TelegramViewImpl - build predication finished
+13:08:53.815  252269 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.view.TelegramViewImpl - Не удалось отправить график: Media can't be empty
+13:11:05.205  383659 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664080
+13:11:30.755  409209 [fist_extrasensory_bot Telegram Executor] INFO  ru.liga.view.TelegramViewImpl - build predication finished
+13:13:56.729  555183 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.view.TelegramViewImpl - Не удалось отправить график: Media can't be empty
+13:14:29.877  588331 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664081
+13:15:32.413  650867 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - ERROR: No value present
+13:24:47.897  857  [main] DEBUG r.l.r.InMemoryRatesRepositoryImpl - Информация из CSV файлов успешно загружена в InMemoryRatesRepository
+13:24:48.298  1258 [main] INFO  ru.liga.Bot - Приложение запущено. Ожидаются сообщения
+13:25:10.348  23308 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664082
+13:25:10.368  23328 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - ERROR: No value present
+13:25:20.445  33405 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664083
+13:25:20.445  33405 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - ERROR: Больше одного наименования валюты можно указывать только при выводе графика (-output graph)
+13:25:33.376  46336 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664084
+13:25:33.394  46354 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - ERROR: No value present
+13:25:43.619  56579 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664085
+13:25:43.624  56584 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - ERROR: No value present
+13:26:15.065  88025 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664086
+13:26:34.855  107815 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664087
+13:26:34.858  107818 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - ERROR: No value present
+13:27:24.632  849  [main] DEBUG r.l.r.InMemoryRatesRepositoryImpl - Информация из CSV файлов успешно загружена в InMemoryRatesRepository
+13:27:25.060  1277 [main] INFO  ru.liga.Bot - Приложение запущено. Ожидаются сообщения
+13:27:25.362  1579 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664088
+13:30:07.869  164086 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - ERROR: No value present
+13:33:58.903  787  [main] DEBUG r.l.r.InMemoryRatesRepositoryImpl - Информация из CSV файлов успешно загружена в InMemoryRatesRepository
+13:33:59.396  1280 [main] INFO  ru.liga.Bot - Приложение запущено. Ожидаются сообщения
+13:33:59.730  1614 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664089
+13:36:19.797  721  [main] DEBUG r.l.r.InMemoryRatesRepositoryImpl - Информация из CSV файлов успешно загружена в InMemoryRatesRepository
+13:36:20.369  1293 [main] INFO  ru.liga.Bot - Приложение запущено. Ожидаются сообщения
+13:36:20.648  1572 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664090
+14:18:09.351  2510275 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664091
+14:18:16.576  2517500 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664092
+14:19:01.298  863  [main] DEBUG r.l.r.InMemoryRatesRepositoryImpl - Информация из CSV файлов успешно загружена в InMemoryRatesRepository
+14:19:01.761  1326 [main] INFO  ru.liga.Bot - Приложение запущено. Ожидаются сообщения
+14:19:08.361  692  [main] DEBUG r.l.r.InMemoryRatesRepositoryImpl - Информация из CSV файлов успешно загружена в InMemoryRatesRepository
+14:19:08.729  1060 [main] INFO  ru.liga.Bot - Приложение запущено. Ожидаются сообщения
+14:19:10.429  2760 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664093
+14:19:10.445  2776 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - ERROR: / by zero
+14:20:36.656  709  [main] DEBUG r.l.r.InMemoryRatesRepositoryImpl - Информация из CSV файлов успешно загружена в InMemoryRatesRepository
+14:20:37.015  1068 [main] INFO  ru.liga.Bot - Приложение запущено. Ожидаются сообщения
+14:20:40.131  4184 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664094
+14:21:34.668  751  [main] DEBUG r.l.r.InMemoryRatesRepositoryImpl - Информация из CSV файлов успешно загружена в InMemoryRatesRepository
+14:21:35.028  1111 [main] INFO  ru.liga.Bot - Приложение запущено. Ожидаются сообщения
+14:21:35.571  1654 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664095
+14:21:55.638  21721 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664096
+14:22:08.191  34274 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664097
+14:22:41.486  67569 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664098
+14:22:41.488  67571 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - ERROR: / by zero
+14:22:46.122  72205 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664099
+14:22:55.570  81653 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664100
+14:25:38.346  805  [main] DEBUG r.l.r.InMemoryRatesRepositoryImpl - Информация из CSV файлов успешно загружена в InMemoryRatesRepository
+14:25:38.745  1204 [main] INFO  ru.liga.Bot - Приложение запущено. Ожидаются сообщения
+14:25:46.141  8600 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664101
+14:25:58.622  21081 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664102
+14:26:30.474  52933 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664103
+14:26:30.486  52945 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - ERROR: No value present
+14:26:36.741  59200 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664104
+14:26:37.658  60117 [fist_extrasensory_bot Telegram Executor] INFO  ru.liga.view.TelegramViewImpl - build predication finished
+14:26:37.660  60119 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.view.TelegramViewImpl - Не удалось отправить график: Media can't be empty
+14:27:04.083  86542 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664105
+14:27:04.248  86707 [fist_extrasensory_bot Telegram Executor] INFO  ru.liga.view.TelegramViewImpl - build predication finished
+14:27:04.248  86707 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.view.TelegramViewImpl - Не удалось отправить график: Media can't be empty
+14:27:22.805  105264 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664106
+14:27:22.806  105265 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - ERROR: Необходимо выбрать алгоритм предсказания, воспользуйтесь командой 'help'
+14:27:31.043  113502 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664107
+14:27:31.168  113627 [fist_extrasensory_bot Telegram Executor] INFO  ru.liga.view.TelegramViewImpl - build predication finished
+14:27:31.168  113627 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.view.TelegramViewImpl - Не удалось отправить график: Media can't be empty
+14:27:45.044  127503 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664108
+14:47:05.899  896  [main] DEBUG r.l.r.InMemoryRatesRepositoryImpl - Информация из CSV файлов успешно загружена в InMemoryRatesRepository
+14:47:06.386  1383 [main] INFO  ru.liga.Bot - Приложение запущено. Ожидаются сообщения
+14:47:36.292  31289 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664109
+14:47:51.572  46569 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664110
+14:47:58.786  53783 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664111
+14:48:51.847  768  [main] DEBUG r.l.r.InMemoryRatesRepositoryImpl - Информация из CSV файлов успешно загружена в InMemoryRatesRepository
+14:48:52.238  1159 [main] INFO  ru.liga.Bot - Приложение запущено. Ожидаются сообщения
+14:48:56.988  5909 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664112
+14:49:15.099  24020 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664113
+14:49:31.441  40362 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664114
+14:52:52.019  240940 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664115
+14:53:01.954  250875 [fist_extrasensory_bot Telegram Executor] DEBUG ru.liga.Bot - Получен новый Update. updateID: 253664116
