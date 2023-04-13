@@ -115,8 +115,8 @@ public class TelegramViewImpl implements View {
 
         BufferedImage bufferedImage = jFreeChart.createBufferedImage(width, height);
 
+        File outputfile = new File(FILE_PATH);
         try {
-            File outputfile = new File(FILE_PATH);
             ImageIO.write(bufferedImage, "png", outputfile);
         } catch (IOException e) {
             log.debug(PLOTTING_ERROR + e.getMessage());
