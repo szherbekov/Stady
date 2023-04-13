@@ -1,1 +1,1 @@
-Home work for Java intensive Liga 2023
+Телеграмм бот для предсказания курсов валют
